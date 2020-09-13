@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MurayamaKenta/TypeScript_practice/issues"
   },
-  "homepage": "https://github.com/MurayamaKenta/TypeScript_practice#readme"
+  "homepage": "https://github.com/MurayamaKenta/TypeScript_practice#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
