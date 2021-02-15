@@ -1,4 +1,4 @@
-export {};
+export { };
 
 let bmi: (height: number, weight: number) => number = (
   height: number,
@@ -22,6 +22,7 @@ let bmi2: (height: number, weight: number, flag: boolean) => number = (
 /**
  * ③
  * ②でエラーになっていたものが「?」 を付けることで引数が無くても許容されるようになる
+ * javascriptでは引数が足りない場合にはundefinedが割り振られるためにエラーになる
  */
 let bmi3: (height: number, weight: number, flag?: boolean) => number = (
   height: number,
@@ -35,6 +36,6 @@ let bmi3: (height: number, weight: number, flag?: boolean) => number = (
   return bmi;
 };
 
-// console.log(bmi3(1.73, 65));
-// console.log(bmi3(1.73, 65, false));
-// console.log(bmi3(1.73, 65, true));
+bmi3(1.73, 65);
+bmi3(1.73, 65, false);
+bmi3(1.73, 65, true);

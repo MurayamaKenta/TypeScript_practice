@@ -1,4 +1,4 @@
-export {};
+export { };
 
 type Pitcher1 = {
   throwingSpeed: number;
@@ -36,3 +36,5 @@ const Otani: TwoWayPlayer2 = {
   throwingSpeed: 165,
   battingAverage: 0.286
 };
+
+

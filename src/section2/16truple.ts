@@ -1,4 +1,4 @@
-export {};
+export { };
 
 let profile: (string | number)[] = ['Kenta', 25];
 

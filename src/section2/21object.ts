@@ -1,4 +1,4 @@
-export {};
+export { };
 
 /**
  * ①
@@ -23,3 +23,10 @@ profile2 = { age: 24 };
  */
 let profile3: { name: string } = { name: 'kenta' };
 // profile3 = { age: 24 };//定義していないプロパティのため再代入不可
+
+
+
+let a: object = { name: 'kenta' }
+a = { age: 34 }
+console.log(a);
+

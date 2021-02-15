@@ -1,4 +1,4 @@
-export {};
+export { };
 // union型は欲張りな型
 
 /**

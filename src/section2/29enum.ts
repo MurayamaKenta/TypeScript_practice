@@ -1,4 +1,4 @@
-export {};
+export { };
 
 /**
  * 列挙型（enum）で定義すると各要素には番号が振られている
@@ -55,3 +55,13 @@ enum COLORS {
 }
 COLORS.YELLOW;
 // COLORS.GREY; //定義していないものにアクセスするとエラーが出る
+
+
+enum Abc {
+  a,
+  b,
+  c,
+  d,
+  e
+}
+console.log(Abc);

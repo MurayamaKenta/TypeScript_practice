@@ -1,9 +1,13 @@
-export {};
+export { };
 
 const kansu = (): number => 43;
 
+
 let numberAny: any = kansu();
+console.log(numberAny);
+
 let numberUnknown: unknown = kansu();
+console.log(numberUnknown);
 
 let sumAny = numberAny + 10;
 
@@ -11,3 +15,4 @@ let sumAny = numberAny + 10;
 if (typeof numberUnknown === 'number') {
   let sunUnknown = numberUnknown + 10;
 }
+
